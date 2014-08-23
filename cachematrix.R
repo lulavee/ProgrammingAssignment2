@@ -1,5 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+##I made two functions for caching expensive values to calculate. 
+## makeCacheMatrix: creates the structure and functions to store and 
+##      access the expensive values.
+## cacheSolve: check if the inverse -the expensive value in this example-
+##      has been computed or not. If has been calculated, then return the cached value. 
+##      Otherwise, computes the value and keep it for the required next time.  
 
 ## This function creates a internal cache to storage the inverse matrix of x
 makeCacheMatrix <- function(x = matrix()) {
